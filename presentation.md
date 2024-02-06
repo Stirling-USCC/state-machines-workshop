@@ -1,5 +1,3 @@
-# State Machines & Regular Expressions
-
 ## Introduction
 
 - What *is* a computer? What does it *mean* to compute?
