@@ -1,0 +1,23 @@
+Get rid of the transducers part, it is too much for a 2-hour workshop
+
+More (non-trivial) examples of state-machines and work them out on the board
+    Something like "Strings of length 2" "Strings of length no more than/at least 2", etc. could
+        help people understand that the regularity of a language does not always depend on the
+        arrangement of the input symbols
+
+Regular expressions part needs to be a *lot* better:
+    People were confused as to the connection between regular languages and DFAs
+    Explain how concatenation works properly
+    Explain the regular operators better; draw explicit connections between regular operations and
+        the DFAs that recognize them (this might need a section on NDFAs)
+    More examples of regular expressions, with the regular languages defined by said expressions before jumping into regexr; ideally with accompanying graphics.
+
+Excercises:
+    Clarify question 2. People assumed it meant check *only* if there were an even number of zeros;
+        clarify that both the number of ones and the number of zeros should be even.
+
+    Need some non-trivial machines; currently question 4 basically represents the machine being asked to be defined in question 1.
+
+    Maybe remove question 3?
+
+    Have questions that ask to translate between DFA and regular expressions
